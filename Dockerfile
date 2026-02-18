@@ -9,7 +9,7 @@ ENV BROWSER_TIMEOUT=10000
 # --disable-gpu: Indispensable, evita buscar hardware gráfico.
 # --no-zygote: Evita crear procesos hijos extra de reserva.
 # --disable-extensions: Ahorra memoria de procesos de fondo.
-ENV CHROMIUM_ARGS="--disable-gpu --disable-software-rasterizer --disable-dev-shm-usage --no-zygote --disable-extensions --mute-audio --disable-background-networking"
+ENV CHROMIUM_ARGS="--disable-gpu --disable-software-rasterizer --disable-dev-shm-usage --no-zygote --disable-extensions --mute-audio"
 
 # 3. Reducir verbosidad de logs (ahorra buffer de I/O)
 ENV LOG_LEVEL=info
